@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import download from '../src/Assets/download.jpg';
+import "bootstrap/dist/css/bootstrap.css";
 import { FontDownload } from '@material-ui/icons';
 
 
@@ -14,7 +15,11 @@ function Mall() {
   <a href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
-  <a href="#about" class="split">Help</a>
+
+  
+  <a class="split" > Your Account</a>|||
+          <a class="split" href="cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
+
 </div>
 <div class='Cart-Container'>
             
@@ -48,7 +53,7 @@ function Mall() {
                 <div style={{
                  width: '40px',
                  height:'30px' ,
-                  backgroundColor: 'blue' }} >50%</div>
+                  backgroundColor: 'grey' }} >50%</div>
                 
                 </div>  
                 <div class='save'>$250,00</div>
@@ -62,6 +67,7 @@ function Mall() {
             </div>  
 
 <button class='button'>Add to Cart</button>
+<button>Add to cart</button>
 
 </div>
 
