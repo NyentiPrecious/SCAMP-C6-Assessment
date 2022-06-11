@@ -5,6 +5,7 @@ import './App.css'
 
 function Mall() {
   return (
+      <div className='container-fluid' >
   
         <div class='Cart-Container'>
 
@@ -15,14 +16,8 @@ function Mall() {
   <a href="#about" class="split">Help</a>
 </div>
 
-
-             <div  class='Header'>
-
-    {/* <h1 class='Heading'>Shopping Cart</h1>
-    <h5 class='Action'>Remove all</h5> */}
-
-
-</div>
+            
+<div  class='Header'>
     
     <div class='image-box'>
 hhhhhhhhhhhhhhhhhhhhhhh           
@@ -39,8 +34,7 @@ hhhhhhhhhhhhhhhhhhhhhhh
         <br></br> companion. Featuring a durable rubber outer sole, they'll
          <br></br> withstand everything the weather can offer.  </p>
        
-        </div>
-   
+        </div>   
             <div class='prices'>
                 <div class='amount'>$125.00</div>
                 <div style={{
@@ -62,10 +56,14 @@ hhhhhhhhhhhhhhhhhhhhhhh
 <button class='button'>Checkout</button>
 
 </div>
+
+</div>
+
 </div>   
        
 
 
+        </div>
         </div>
   )
 }
