@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import images 
 
 
 
@@ -20,7 +21,10 @@ function Mall() {
 <div  class='Header'>
     
     <div class='image-box'>
-hhhhhhhhhhhhhhhhhhhhhhh           
+hhhhhhhhhhhhhhhhhhhhhh
+
+      <img src={sneaker1}></img>
+
         </div>
 
     <div class='Cart-Items'>
