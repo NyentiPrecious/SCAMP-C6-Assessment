@@ -1,14 +1,14 @@
 import React from 'react'
 import './App.css'
-import images 
-
+import download from '../src/Assets/download.jpg';
+import { FontDownload } from '@material-ui/icons';
 
 
 function Mall() {
   return (
       <div className='container-fluid' >
   
-        <div class='Cart-Container'>
+        
 
 <div class="topnav">
   <a href="#home">Home</a>
@@ -16,17 +16,21 @@ function Mall() {
   <a href="#contact">Contact</a>
   <a href="#about" class="split">Help</a>
 </div>
-
+<div class='Cart-Container'>
             
 <div  class='Header'>
     
     <div class='image-box'>
-hhhhhhhhhhhhhhhhhhhhhh
-
-      <img src={sneaker1}></img>
-
-        </div>
-
+       
+        <div className='big'> 
+       <img style={{backroundSize:'cover' }} src={download} alt='cover' ></img>
+         </div>
+         <div style={{display:'flex', justifyContent:'space-between' }} className='sml'> 
+       <img  style={{width:'50px', height:'60px' }} src={download} alt='cover' ></img>
+       <img style={{width:'50px', height:'60px' }} src={download} alt='cover' ></img>
+       <img style={{width:'50px', height:'60px'}} src={download} alt='cover' ></img>
+         </div>
+         </div>        
     <div class='Cart-Items'>
 
 
@@ -52,21 +56,18 @@ hhhhhhhhhhhhhhhhhhhhhh
             <div class='checkout'>
             <div class='counter'>
             
-            <div class='btn'>+</div>
-            <div class='count'>2</div>
             <div class='btn'>-</div>
+            <div class='count'>0</div>
+            <div class='btn'>+</div>
             </div>  
 
-<button class='button'>Checkout</button>
+<button class='button'>Add to Cart</button>
 
 </div>
 
 </div>
 
-</div>   
-       
-
-
+</div>      
         </div>
         </div>
   )
