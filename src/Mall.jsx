@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import download from '../src/Assets/download.jpg';
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css"
 import { FontDownload } from '@material-ui/icons';
 
 
@@ -67,7 +67,7 @@ function Mall() {
             </div>  
 
 <button class='button'>Add to Cart</button>
-<button>Add to cart</button>
+<button >Add to cart</button>
 
 </div>
 
