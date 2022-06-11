@@ -67,7 +67,7 @@ function Mall() {
             </div>  
 
 <button class='button'>Add to Cart</button>
-<button >Add to cart</button>
+{/* <button >Add to cart</button> */}
 
 </div>
 
